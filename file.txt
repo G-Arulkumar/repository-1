@@ -81,7 +81,7 @@
     <main>
 
         <div class="product">
-            <img src="placeholder.jpg" alt="Product 1">  <h3>Product 1</h3>
+            <img src="shirt.jpg" alt="Product 1">  <h3>Product 1</h3>
             <p>Description of product 1.  Short and sweet.</p>
             <p>Price: $19.99</p>
             <button>Add to Cart</button>
