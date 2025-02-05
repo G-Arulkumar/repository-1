@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <style>
+        /* Basic Styling -  You'll likely want a separate CSS file */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center; /* Center the navigation items */
+
+        }
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px; /* Add some padding around the links */
+        }
+
+
+        main {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+            grid-gap: 20px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center; /* Center the product content */
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My E-commerce Store</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="product">
+            <img src="placeholder.jpg" alt="Product 1">  <h3>Product 1</h3>
+            <p>Description of product 1.  Short and sweet.</p>
+            <p>Price: $19.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="placeholder.jpg" alt="Product 2">  <h3>Product 2</h3>
+            <p>Description of product 2.</p>
+            <p>Price: $29.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="placeholder.jpg" alt="Product 3">  <h3>Product 3</h3>
+            <p>Description of product 3.</p>
+            <p>Price: $39.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="placeholder.jpg" alt="Product 4">  <h3>Product 4</h3>
+            <p>Description of product 4.</p>
+            <p>Price: $49.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My E-commerce Store</p>
+    </footer>
+
+</body>
+</html>
