@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazon The E-commerce Website</title>
+    <link rel="icon" href="M icon.ico">
+    <style>
+        body{
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #A28EDE;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #856DCE;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center; 
+
+        }
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        nav a:hover{
+            border: #000000 solid 1px;
+            color: aqua;
+        }
+        a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+
+
+        main {
+            background-color: #DCD0FF;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            grid-gap: 20px;
+        }
+        .product {
+            background-color: #BFAFEF;
+            border: 3px solid #000000;
+            padding: 10px;
+            text-align: center; 
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #684BBD;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MAGAZON</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="product">
+            <img src="shirt.jpg" alt="shirt">  <h3>shirt</h3>
+            <p>Just Shirt.</p>
+            <p>Price: ₹143</p>
+            <button><a href="#">Add to Cart</a></button>
+        </div>
+
+        <div class="product">
+            <img src="flipperzero.png" alt="Goku">  <h3>Flipperzero</h3>
+            <p>Flipper Zero is a handheld penetration-testing device that can read, copy and emulate wireless signals in its environment</p>
+            <p>Price: ₹40,000</p>
+            <button><a href="#">Add to Cart</a></button>
+        </div>
+
+        <div class="product">
+            <img src="poco.jpg" alt="POCO X6 PRO 5G">  <h3>POCO X6 PRO 5G</h3>
+            <p> The Poco X6 Pro comes with 12GB RAM varient</p>
+            <p>Price: ₹23,000</p>
+            <button><A href="">Add to Cart</A></button>
+        </div>
+
+        <div class="product">
+            <img src="omnitrix.jpg" alt="omnitrix">  <h3>Omnitrix</h3>
+            <p>A Watch with RGB Lightings</p>
+            <p>Price: ₹700</p>
+            <button><a href="#">Add to Cart</a></button>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Magazon E-commerce Store</p>
+    </footer>
+
+</body>
+</html>
